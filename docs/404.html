@@ -52,7 +52,7 @@
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "ayu" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -97,7 +97,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="chapter_1.html"><strong aria-hidden="true">1.</strong> Chapter 1</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="motivation.html"><strong aria-hidden="true">1.</strong> Motivation</a></li><li class="chapter-item expanded "><a href="productivity.html"><strong aria-hidden="true">2.</strong> Productivity</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="osx.html"><strong aria-hidden="true">2.1.</strong> OS X</a></li><li class="chapter-item expanded "><a href="internet.html"><strong aria-hidden="true">2.2.</strong> Internet</a></li></ol></li><li class="chapter-item expanded "><a href="ch_2.html"><strong aria-hidden="true">3.</strong> Development Environment</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="dev_env_general.html"><strong aria-hidden="true">3.1.</strong> General</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.2.</strong> Python</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.3.</strong> NodeJS</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.4.</strong> Go (Programming Language)</div></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -137,6 +137,10 @@
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
                         
+                        
+                        <a href="https://msoltysik.github.io/mbp-setup/" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
                         
                     </div>
                 </div>

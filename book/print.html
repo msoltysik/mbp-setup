@@ -3,7 +3,9 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Motivation</title>
+        <title></title>
+        
+        <meta name="robots" content="noindex" />
         
         
 
@@ -169,6 +171,21 @@
                     <main>
                         <h1 id="motivation"><a class="header" href="#motivation">Motivation</a></h1>
 <p>The goal of this book is to create a easy, step-by-step guide [...].</p>
+<h1 id="productivity"><a class="header" href="#productivity">Productivity</a></h1>
+<h3 id="gimp"><a class="header" href="#gimp">Gimp</a></h3>
+<p>Gimp is an advance photo editor.</p>
+<pre><code>brew install gimp
+</code></pre>
+<h1 id="os-x"><a class="header" href="#os-x">OS X</a></h1>
+<h3 id="magnet"><a class="header" href="#magnet">Magnet</a></h3>
+<p>(or alternative)</p>
+<h1 id="internet"><a class="header" href="#internet">Internet</a></h1>
+<h3 id="chrome"><a class="header" href="#chrome">Chrome</a></h3>
+<h3 id="-spotify"><a class="header" href="#-spotify">🔴 Spotify</a></h3>
+<h1 id="development-environment"><a class="header" href="#development-environment">Development Environment</a></h1>
+<h1 id="general"><a class="header" href="#general">General</a></h1>
+<h3 id="vscode"><a class="header" href="#vscode">VSCode</a></h3>
+<h3 id="vim-"><a class="header" href="#vim-">Vim (?)</a></h3>
 
                     </main>
 
@@ -176,10 +193,6 @@
                         <!-- Mobile navigation buttons -->
                         
 
-                        
-                            <a rel="next" href="productivity.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
                         
 
                         <div style="clear: both"></div>
@@ -191,14 +204,25 @@
                 
 
                 
-                    <a rel="next" href="productivity.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
             </nav>
 
         </div>
 
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         
 
         
@@ -226,6 +250,14 @@
         <!-- Custom JS scripts -->
         
 
+        
+        
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+        
         
 
     </body>
