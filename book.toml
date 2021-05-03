@@ -1,11 +1,13 @@
 [book]
+title = "Macbook Pro Setup"
 authors = ["Mateusz Soltysik",]
 language = "en"
 multilingual = false
 src = "src"
 
+[build]
+build-dir = "docs"
+
 [output.html]
-theme = "my-theme"
-default-theme = "light"
 preferred-dark-theme = "ayu"
 git-repository-url = "https://msoltysik.github.io/mbp-setup/"
